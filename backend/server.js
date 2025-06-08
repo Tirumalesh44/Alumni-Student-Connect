@@ -61,7 +61,7 @@ app.use(cookieParser());
 // CORS setup to allow requests from frontend (e.g. Vite dev server)
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://alumni-student-connect-44.vercel.app/'
+  'https://alumni-student-connect-44.vercel.app'
 ]; 
 //fafe
 
