@@ -124,7 +124,7 @@ const UpdateProfileAlumni = () => {
     const fetchProfile = async () => {
       try {
         setError(''); setSuccess(''); setFieldErrors({});
-        const res = await axios.get('http://localhost:5000/api/users/profile', {
+        const res = await axios.get('https://alumni-student-connect-gamma.vercel.app/api/users/profile', {
           headers: { Authorization: `Bearer ${alumniToken}` },
         });
         const data = res.data || {};
@@ -229,7 +229,7 @@ const UpdateProfileAlumni = () => {
 
 
       console.log("[AlumniUpdateProfile] Submitting payload:", payloadToSubmit);
-      await axios.put('http://localhost:5000/api/users/profile', payloadToSubmit, {
+      await axios.put('https://alumni-student-connect-gamma.vercel.app/api/users/profile', payloadToSubmit, {
         headers: { Authorization: `Bearer ${alumniToken}`, 'Content-Type': 'application/json' },
       });
       setSuccess('Profile updated successfully! Redirecting to your profile...');

@@ -131,7 +131,7 @@ const AlumniProfile = () => {
         return;
       }
 
-      const res = await fetch('http://localhost:5000/api/users/profile', {
+      const res = await fetch('https://alumni-student-connect-gamma.vercel.app/api/users/profile', {
         headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
       });
 

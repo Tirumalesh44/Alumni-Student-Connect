@@ -17,7 +17,7 @@
 //     port: 5173, // optional, default is 5173
 //     proxy: {
 //       '/api': {
-//         target: 'http://localhost:5000',
+//         target: 'https://alumni-student-connect-gamma.vercel.app',
 //         changeOrigin: true,
 //         secure: false,
 //         // optional for advanced control:
@@ -42,7 +42,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://alumni-student-connect-gamma.vercel.app',
         changeOrigin: true,
         secure: false,
         // No need for configure unless debugging

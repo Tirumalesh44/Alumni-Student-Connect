@@ -243,7 +243,7 @@ const AlumniChat = () => {
       try {
         setError(prev => ({ ...prev, contacts: '' }));
         setLoading((prev) => ({ ...prev, contacts: true }));
-        const res = await fetch('http://localhost:5000/api/search/students', { 
+        const res = await fetch('https://alumni-student-connect-gamma.vercel.app/api/search/students', { 
           headers: { Authorization: `Bearer ${alumniToken}` },
         });
         if (!res.ok) throw new Error(`Fetch students failed: ${res.statusText} (${res.status})`);
@@ -267,7 +267,7 @@ const AlumniChat = () => {
     try {
       setError(prev => ({ ...prev, messages: '' }));
       setLoading((prev) => ({ ...prev, messages: true }));
-      const res = await fetch(`http://localhost:5000/api/messages/${currentReceiver._id}`, {
+      const res = await fetch(`https://alumni-student-connect-gamma.vercel.app/api/messages/${currentReceiver._id}`, {
         headers: { Authorization: `Bearer ${alumniToken}` },
       });
       if (!res.ok) throw new Error(`Load messages failed: ${res.statusText} (${res.status})`);
@@ -310,7 +310,7 @@ const AlumniChat = () => {
         try {
             setError(prev => ({ ...prev, sending: '' }));
             setLoading((prev) => ({ ...prev, sending: true }));
-            const res = await fetch('http://localhost:5000/api/messages', {
+            const res = await fetch('https://alumni-student-connect-gamma.vercel.app/api/messages', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${alumniToken}` },
                 body: JSON.stringify({ receiverId: currentReceiver._id, content, type: 'text' }),

@@ -367,7 +367,7 @@ const SearchStudents = () => {
       setError('');
       const token = getToken();
       
-      const res = await fetch('http://localhost:5000/api/search/students', {
+      const res = await fetch('https://alumni-student-connect-gamma.vercel.app/api/search/students', {
         method: 'GET',
         headers: { 
           'Content-Type': 'application/json',
