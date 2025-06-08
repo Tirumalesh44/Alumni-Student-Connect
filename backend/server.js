@@ -62,7 +62,8 @@ app.use(cookieParser());
 const allowedOrigins = [
   'http://localhost:5173',
   'https://alumni-student-connect-44.vercel.app/'
-];
+]; 
+//fafe
 
 app.use(cors({
   origin: function (origin, callback) {
