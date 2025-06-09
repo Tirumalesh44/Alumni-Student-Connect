@@ -93,7 +93,7 @@ const InfiniteMovingCards = ({ items, speed = "slow" }) => {
   const getSpeedClass = () => {
     if (speed === "fast") return "animate-scroll-fast";
     if (speed === "normal") return "animate-scroll-normal";
-    return "animate-scroll-slow";
+    return "animate-scroll-normal";
   };
   
   return (
