@@ -137,7 +137,7 @@ const IncomingRequestCard = ({ request, onUpdateStatus, onChat, isUpdatingId }) 
                 onClick={() => onChat(student)}
                 className="text-sm inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md transition-colors"
             >
-                <MessageSquare size={16} className="mr-2" /> Chat with Mentee
+                <MessageSquare size={16} className="mr-2" /> Chat with Student
             </button>
         </div>
       )}
