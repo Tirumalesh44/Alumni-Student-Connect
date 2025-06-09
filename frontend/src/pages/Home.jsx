@@ -38,7 +38,7 @@ const creators = [
   {
     name: "S.Chetan Reddy",
     role: "Co-Founder & UI/UX Designer",
-    image: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "../../chetan_reddy_img.jpg",
     description: "Designing intuitive and beautiful interfaces that connect people and create meaningful experiences.",
     skills: [
       { icon: <Palette className="h-4 w-4" />, text: "UI/UX Design" },
