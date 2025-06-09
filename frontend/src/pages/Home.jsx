@@ -235,7 +235,7 @@ const Home = () => {
               {/* 5. Replaced the old grid with the new infinite scroller component */}
               <InfiniteMovingCards
                   items={creators}
-                  speed="slow"
+                  speed="medium"
               />
             </div>
 
