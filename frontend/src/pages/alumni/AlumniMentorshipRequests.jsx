@@ -1,3 +1,5 @@
+// FIX: Add this at the top of your component file
+import { UserCheck } from 'lucide-react';
 
 
 import React, { useEffect, useState, useCallback } from 'react';
