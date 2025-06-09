@@ -45,10 +45,10 @@ const StudentDashboard = () => {
   const navLinks = [
     { label: 'Home', to: '/student-dashboard', icon: Home },
     { label: 'Jobs', to: '/student-dashboard/jobs', icon: Briefcase },
+    { label: 'Search Alumni', to: '/student-dashboard/search-alumni', icon: Search },
     { label: 'Mentorship', to: '/student-dashboard/mentorship', icon: UserCheck },
     { label: 'Chat', to: '/student-dashboard/chat', icon: MessageSquare },
-    { label: 'Search Alumni', to: '/student-dashboard/search-alumni', icon: Search },
-    { label: 'View Profile', to: '/student-dashboard/profile', icon: UserCircle },
+    { label: 'My Profile', to: '/student-dashboard/profile', icon: UserCircle },
     { label: 'Update Profile', to: '/student-dashboard/updateprofile', icon: Pencil },
   ];
 
