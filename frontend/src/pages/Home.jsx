@@ -30,9 +30,9 @@ const creators = [
       { icon: <Building className="h-4 w-4" />, text: "Community Engagement" }
     ],
     socialLinks: [
-      { icon: <Github className="h-5 w-5" />, href: "#", label: "GitHub" },
-      { icon: <Linkedin className="h-5 w-5" />, href: "#", label: "LinkedIn" },
-      { icon: <Mail className="h-5 w-5" />, href: "#", label: "Email" }
+      { icon: <Github className="h-5 w-5" />, href: "https://github.com/Tirumalesh44", label: "GitHub" },
+      { icon: <Linkedin className="h-5 w-5" />, href: "https://www.linkedin.com/in/tirumalesh44/", label: "LinkedIn" },
+      { icon: <Mail className="h-5 w-5" />, href: "tiru5210@gmail.com", label: "Email" }
     ]
   },
   {
@@ -46,9 +46,9 @@ const creators = [
       { icon: <Users className="h-4 w-4" />, text: "Prototyping" }
     ],
     socialLinks: [
-      { icon: <Github className="h-5 w-5" />, href: "#", label: "GitHub" },
-      { icon: <Linkedin className="h-5 w-5" />, href: "#", label: "LinkedIn" },
-      { icon: <Mail className="h-5 w-5" />, href: "#", label: "Email" }
+      { icon: <Github className="h-5 w-5" />, href: "https://gitHub.com/ChetanReddy1303", label: "GitHub" },
+      { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedIn.com/in/chetanreddysangam/", label: "LinkedIn" },
+      { icon: <Mail className="h-5 w-5" />, href: "chetanreddy1303@gmail.com", label: "Email" }
     ]
   },
   {
