@@ -53,8 +53,7 @@ const creators = [
   },
   {
     name: "Ch.Jyoshikha",
-    role: "Co-Founder & Product Manager",
-    image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400",
+    role: "C../../jyoshika_img.jpg",
     description: "A strategic thinker dedicated to building products that solve real-world problems for our community.",
     skills: [
       { icon: <Briefcase className="h-4 w-4" />, text: "Product Strategy" },
