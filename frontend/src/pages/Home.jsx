@@ -62,9 +62,9 @@ const creators = [
       { icon: <Users className="h-4 w-4" />, text: "Community Building" }
     ],
     socialLinks: [
-      { icon: <Github className="h-5 w-5" />, href: "#", label: "GitHub" },
-      { icon: <Linkedin className="h-5 w-5" />, href: "#", label: "LinkedIn" },
-      { icon: <Mail className="h-5 w-5" />, href: "#", label: "Email" }
+      { icon: <Github className="h-5 w-5" />, href: "https://github.com/Jyo2207", label: "GitHub" },
+      { icon: <Linkedin className="h-5 w-5" />, href: "https://www.linkedin.com/in/jyoshika-ch-b98782291/", label: "LinkedIn" },
+      { icon: <Mail className="h-5 w-5" />, href: "jyoshikach22@gmail.com", label: "Email" }
     ]
   }
 ];
